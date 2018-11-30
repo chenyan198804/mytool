@@ -61,7 +61,7 @@ class Admin():
         password = self.decryption(tmppassword)
         postDict = {
                     'tz_offset':'480',
-                    'realm':'NSN-AD',
+                    'realm':'***-AD',
                     'username':username,
                     'password':password,
                     'btnSubmit':'Sign In',
